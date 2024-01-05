@@ -158,105 +158,40 @@ form {
     padding: 20px;
     border-radius: 10px;
 } 
-/*
 
-
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #25265e;
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.flex-container {
+
+.skills-box {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: rgb(66, 179, 68);
     width: 100%;
-    height: 50px;
 }
-.flex-item {
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 60px;
-    height: 20px;
-    background-color: rgb(52, 83, 72);
-    color: bisque;
-    padding: 5px;
-    border-radius: 5px;
-}
-.flex-item:hover {
-    background-color: bisque;
-    color: rgb(52, 83, 72) ;
-    border-radius: 5px;
-
 }
 
-
-.content .info h1 {
-    color: #5d5d5d;
-    font-size: 44px;
-  }
-.content .info p {
-    margin: 0;
-    line-height: 1.6;
-    font-size: 15px;
-    color: #5d5d5d;
-  }
-.content .info button {
-    border: 0;
-    border-radius: 20px;
-    padding: 12px 30px;
-    margin-top: 30px;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #6c63ff;
-  }
-.content .image img {
-    max-width: 100%;
-  }
-
-
-/* 
-h1 {
-    background-color: #ffecd7;
+.skill-img {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(236, 236, 236);
 }
 
-#myname {
-    color: #ff8b6c;
-    font-size: 30px;
-    font-family: 'Archivo', sans-serif;
+.skill-img img {
+    width: 100%;
 }
 
-tr {
-    background-color: #ffecd7;
+.skill-img:hover {
+    box-shadow: 1px 1px 2px 4px whitesmoke;
+    transform: scale(1.05);
 }
-
-.skills-table {
-    border-collapse: collapse;
-    width: 500px;
-}
-
-.skills-table tr {
-    height: 50px;
-    color: rgba(37, 38, 94, 0.87);
-    font-size: 18px;
-}
-
-.skills-table td {
-    border: 1px solid #25265e;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    width: 400px;
-}
-
-form {
-    border: 2px solid slateblue;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-} */
